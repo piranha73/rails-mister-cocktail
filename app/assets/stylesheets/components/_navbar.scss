@@ -1,12 +1,31 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: darkblue;
+  color: pink;
 }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+  color: pink;
 }
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.navbar .fa-cocktail {
+  color: pink;
+}
+
+.nav-link {
+
+  color: pink !important;
+  &:hover {
+    color: rgba(255, 192, 203, 0.7);
+  }
+
+}
+
+button .navbar-toggler {
+  color: pink;
 }
