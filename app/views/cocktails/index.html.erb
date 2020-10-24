@@ -5,7 +5,7 @@
         <div class="card">
           <%= image_tag "cocktail.jpg", alt: "Le Wagon"%>
           <div class="card-body">
-            <h3><%= cocktail.name %></h3>
+            <h3 id="blink"><%= cocktail.name %></h3>
             <p class="card-text"><%= link_to "show", cocktail_path(cocktail), class: "btn-grad"%></p>
           </div>
         </div>
